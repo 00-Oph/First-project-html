@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+h1,h2,h3,h4,h5.h6 {
+    font-weight: 500;
+    line-height: 1.3em;
+}
+span{
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 2.3em;
+}
+p{
+    line-height: 1.4em;
+}
+a, li{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+.header{
+    padding-top: 60px;
+    padding-bottom: 210px;
+    background: rgba(77,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(13,73,122,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(13,73,122,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(13,73,122,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(13,73,122,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(13,73,122,1) 100%);
+    background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(13,73,122,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#0d497a', GradientType=1 );
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.wrapper{
+   display: flex;
+   justify-content: space-between;
+}
+.title{
+    width: 570px;
+    padding-top: 90px;
+    padding-bottom: 35px;
+    font-size: 20px;
+    color: #fff;
+}
+.title h1{
+    font-weight: 500;
+}
+.subtitle, .subtitle p{
+    width: 400px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+.img{
+    max-width: 100%;
+}
+.btn, .btn-form{
+    padding: 15px 0;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #000;
+    border-radius: 10px;
+    background: #ffd429;
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #efecf4;
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.contact-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.dreams {
+    display: flex;
+    justify-content: space-between;
+}
+.dream-card{
+   width: 289px;
+}
+.dreams h2,h3{
+    font-size: 19px;
+    font-weight: bold;
+}
+.dreams p {
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: 400px; 
+}
+.dreams img{
+    height: 70px;
+}
+.section-b {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 340px;
+    margin: 0 auto;
+    
+}
+.form input{
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.btn-form {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-form:hover, .btn:hover{
+   box-shadow: 7px 4px 30px #000;
+   transition: all 3sec ease;
+}
+.footer{
+    background: #164d7a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}

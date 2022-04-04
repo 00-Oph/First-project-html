@@ -1,0 +1,104 @@
+@media (max-width: 1200px) {
+    .container{
+        width: 960px;
+    }
+    .img{
+        width: auto;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+      }
+      .img{
+          width: auto;
+          margin: 0 0 0 -30px;
+      }
+}
+@media (max-width: 921px) {
+    .container{
+        width: 770px;
+    }
+    .img{
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 820px) {
+    .container{
+        width: 540px;
+   }
+   .wrapper{
+    flex-direction: column;
+    }
+    .title{
+        width: auto;
+    }
+    .title h1{
+        line-height: 1em;
+    }
+    .subtitle{
+        width: 100%;
+        line-height: 1.7em;
+    }
+    
+    .btn{
+        width: auto;
+    }
+    .img{
+        margin: 0 auto;
+    }
+    .dream-card{
+        width: auto;
+    }
+}
+
+@media (max-width: 577px) {
+   .container{
+         width: 90%;
+    }
+    .dreams{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dream-card{
+        width: auto;
+    }
+    .img{
+        width: 250px;
+    }
+ }
+
+@media (max-width: 420px){
+    .container{
+        width: 200px;
+    }
+    .header-img{
+     margin-left: 50px;
+    }
+    .img{
+        width: 250px;
+    }
+    .form input {
+        width: 289px;
+        height: 42px;
+        font-size: 15px;
+        margin: 14px 0;
+        padding-left: 6px;
+    }
+    .btn, .btn-form{
+        width: 100%;
+    }
+
+    .title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .subtitle{
+        text-align: justify;
+        font-size: 15px;
+    }
+
+}
+   
