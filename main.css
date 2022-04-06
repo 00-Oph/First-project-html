@@ -8,10 +8,6 @@ body{
     margin: 0;
     border: 0;
 }
-h1,h2,h3,h4,h5.h6 {
-    font-weight: 500;
-    line-height: 1.3em;
-}
 span{
     font-weight: 900;
     text-transform: uppercase;
@@ -44,11 +40,10 @@ a, li{
 .wrapper{
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 .title{
     width: 570px;
-    padding-top: 90px;
-    padding-bottom: 35px;
     font-size: 20px;
     color: #fff;
 }
@@ -140,8 +135,10 @@ a, li{
     padding-top: 60px;
     padding-bottom: 60px;
     color: #fff;
-    margin: 0;
     font-size: 14px;
     font-family:'Open Sans', sans-serif;
     text-align: center;
+}
+.footer p{
+    margin: 0;
 }
